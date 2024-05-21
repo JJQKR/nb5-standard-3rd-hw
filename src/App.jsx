@@ -20,11 +20,7 @@ function App() {
         filteredStudent={filteredStudents}
         setFilteredStudents={setFilteredStudents}
       />
-      <StudentList
-        initialStudents={initialStudents}
-        filteredStudent={filteredStudents}
-        setFilteredStudents={setFilteredStudents}
-      />
+      <StudentList filteredStudent={filteredStudents} />
     </div>
   );
 }

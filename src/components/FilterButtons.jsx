@@ -26,10 +26,10 @@ function FilterButtons({
       <button type="button" onClick={() => filterByAge(minAge)}>
         18세 이상
       </button>
-      <button type="button" onClick={() => filterByAge(grade)}>
+      <button type="button" onClick={() => filterByGrade(grade)}>
         A등급
       </button>
-      <button type="button" onClick={resetFilter}>
+      <button type="reset" onClick={resetFilter}>
         필터 초기화
       </button>
     </div>
